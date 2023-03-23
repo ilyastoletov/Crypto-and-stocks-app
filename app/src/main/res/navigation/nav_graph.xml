@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/cryptoFragment">
+
+    <fragment
+        android:id="@+id/cryptoFragment"
+        android:name="com.appninjas.cryptoandstocks.presentation.screens.crypto.CryptoFragment"
+        android:label="CryptoFragment" />
+    <fragment
+        android:id="@+id/stocksFragment"
+        android:name="com.appninjas.cryptoandstocks.presentation.screens.stocks.StocksFragment"
+        android:label="StocksFragment" />
+</navigation>
